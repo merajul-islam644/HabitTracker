@@ -1,0 +1,8 @@
+[x] Branding & shell baseline (no skill)
+[x] Profile: view + edit display name (blocks-iam-account)
+[x] Profile: change password + sign-out actions (blocks-iam-account)
+[x] Settings: appearance + week start + timezone (blocks-data-gateway-crud)
+[x] Notifications: preferences + habit reminders UI (blocks-data-gateway-crud)
+[x] Accessibility: completion indicators and labels (no skill)
+[x] Error states: save + retry messaging (no skill)
+[x] Check and build app (no skill)

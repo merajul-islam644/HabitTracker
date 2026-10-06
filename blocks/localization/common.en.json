@@ -1,0 +1,40 @@
+{
+  "app.name": "Habitify",
+  "app.tagline": "Small steps. Big changes.",
+
+  "nav.home": "Home",
+  "nav.stats": "Stats",
+  "nav.addHabit": "Add Habit",
+  "nav.calendar": "Calendar",
+  "nav.profile": "Profile",
+  "nav.logout": "Log out",
+
+  "welcome.headline": "Small steps. Big changes.",
+  "welcome.subtitle": "Build routines through small daily actions, without feeling judged for missed days.",
+  "welcome.getStarted": "Get started",
+  "welcome.signIn": "Sign in",
+  "welcome.already": "Already have an account?",
+
+  "auth.welcome": "Welcome",
+  "auth.subtitle": "Continue to your account.",
+  "auth.continue": "Continue",
+  "auth.redirecting": "Redirecting...",
+  "auth.failed": "Sign-in failed",
+  "auth.back": "Back to sign in",
+  "auth.notConfigured": "Sign-in isn't ready yet. Please contact support.",
+
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "refresh": "Refresh",
+  "loading": "Loading",
+  "error": "Something went wrong",
+
+  "home.title": "Home",
+  "home.subtitle": "Today's habits and progress.",
+  "home.ready": "You're all set.",
+
+  "notFound.title": "404",
+  "notFound.message": "This page does not exist.",
+  "notFound.home": "Back home"
+}

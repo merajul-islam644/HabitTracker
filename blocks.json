@@ -1,0 +1,17 @@
+{
+  "project": {
+    "tenantId": "D6a57739ef8ae48e4815185fe9b7da17c",
+    "apiUrl": "https://blocksapi.slsblx.com",
+    "appDomain": "https://D6a57739ef8ae48e4815185fe9b7da17c-ba526e57-ab25-4090-86f7-d1434a667b42.slsblx.com"
+  },
+  "data": {
+    "schemas": "blocks/data/schemas",
+    "rules": "blocks/data/rules.json"
+  },
+  "repo": {
+    "branch": "dev",
+    "fullName": "merajul-islam644/HabitTracker",
+    "provider": "github",
+    "url": "https://github.com/merajul-islam644/HabitTracker"
+  }
+}
