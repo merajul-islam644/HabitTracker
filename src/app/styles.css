@@ -195,6 +195,72 @@ section { margin: 0 auto; max-width: 1100px; width: 100%; }
 .pill-neutral { background: hsl(var(--secondary)); color: hsl(var(--muted-foreground)); }
 
 pre { background: hsl(var(--foreground)); border-radius: var(--radius); color: hsl(var(--background)); overflow: auto; padding: 16px; }
+
+/* Stats */
+.stats-chart {
+  align-items: end;
+  border-radius: calc(var(--radius) - 4px);
+  display: grid;
+  gap: 4px;
+  grid-auto-columns: minmax(6px, 1fr);
+  grid-auto-flow: column;
+  height: 140px;
+  padding: 6px;
+}
+
+.stats-chart-col {
+  align-items: end;
+  display: grid;
+  height: 100%;
+}
+
+.stats-chart-bar {
+  background: hsl(var(--primary));
+  border-radius: 6px;
+  min-height: 2px;
+  opacity: 0.85;
+}
+
+.stats-breakdown {
+  border-top: 1px solid hsl(var(--border));
+  display: grid;
+  gap: 0;
+}
+
+.stats-breakdown-head {
+  color: hsl(var(--muted-foreground));
+  display: grid;
+  font-size: 12px;
+  font-weight: 700;
+  gap: 10px;
+  grid-template-columns: 1fr 130px 70px;
+  padding: 10px 6px;
+}
+
+.stats-breakdown-row {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  border-radius: calc(var(--radius) - 4px);
+  color: hsl(var(--foreground));
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 130px 70px;
+  min-height: 44px;
+  padding: 10px 6px;
+  text-align: left;
+}
+
+.stats-breakdown-row:hover { background: hsl(var(--secondary)); }
+
+.stats-breakdown-name { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.stats-breakdown-count, .stats-breakdown-rate { font-variant-numeric: tabular-nums; justify-self: end; }
+
+@media (max-width: 520px) {
+  .stats-breakdown-head, .stats-breakdown-row {
+    grid-template-columns: 1fr 112px 64px;
+  }
+}
 .primary-button, .icon-button { align-items: center; border: 0; border-radius: var(--radius); display: inline-flex; gap: 8px; min-height: 44px; padding: 0 13px; transition: background-color 0.15s ease, box-shadow 0.15s ease, transform 0.05s ease; }
 .primary-button { background: hsl(var(--primary)); box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08); color: hsl(var(--primary-foreground)); font-weight: 600; }
 .primary-button:hover:not(:disabled) { box-shadow: 0 4px 10px rgba(15, 23, 42, 0.16); }

@@ -5,4 +5,8 @@
 [x] Notifications: preferences + habit reminders UI (blocks-data-gateway-crud)
 [x] Accessibility: completion indicators and labels (no skill)
 [x] Error states: save + retry messaging (no skill)
+[x] Stats: period selector + KPI cards (blocks-data-gateway-crud)
+[x] Stats: daily completions chart (blocks-data-gateway-crud)
+[x] Stats: habit breakdown list (blocks-data-gateway-crud)
+[x] Stats: empty states + navigation (blocks-data-gateway-crud)
 [x] Check and build app (no skill)
